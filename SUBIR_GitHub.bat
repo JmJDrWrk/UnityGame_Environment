@@ -1,3 +1,6 @@
+@echo off
+
+
 git add Library 
 git commit -m "update library"
 git push
