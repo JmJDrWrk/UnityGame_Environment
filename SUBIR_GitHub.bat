@@ -34,5 +34,7 @@ git add *.*
 git commit -m "update *.*"
 git push
 
-
+echo TAREA FINALIZADA
+echo Pulse cualquier tecla para salir
+pause>nul
 
