@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Ldoor
   - Rdoor
+  - cocacola
+  - Cubata
+  - Coche
+  - daemon
   layers:
   - Default
   - TransparentFX
