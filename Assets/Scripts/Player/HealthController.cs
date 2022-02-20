@@ -10,8 +10,10 @@ public class HealthController : MonoBehaviour
 
     private MeshRenderer mesh;
 
-    private GameObject current_car;
+    private GameObject last_object;
     private bool car_collided = false;
+
+    private bool friend_collided = false;
 
     //Spawnpoint
     public Transform spawnpoint;
@@ -27,14 +29,22 @@ public class HealthController : MonoBehaviour
     private float maxHP = 100f;    
 
     //SED
-    private float initial_drink_health; //a value for reducing previous current health through attacks
     public static float current_drink_health; // current HP
     int[] drink_health_position = new int[3] {10,10,15};
 
+    //AMOR
+    public static float current_love_health; // current HP
+    int[] love_health_position = new int[3] {10,30,15};
+
+    //AMISTAD
+    public static float current_friend_health; // current HP
+    int[] friend_health_position = new int[3] {10,50,15};
+
     void Start()
     {   
-        initial_drink_health = 100f;
         current_drink_health = 50f;
+        current_love_health = 20f;
+
     }
 
 
@@ -43,6 +53,7 @@ public class HealthController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E)){
             if(cubata_collided){drink();}
             if(car_collided){car_car();}
+            if(friend_collided){talk_friend();}
         }
     }
 
@@ -53,7 +64,11 @@ public class HealthController : MonoBehaviour
         }
         if(other.tag == "Coche"){
             car_collided = true;
-            current_car = other.gameObject;
+            last_object = other.gameObject;
+        }
+        if(other.tag == "Amigo"){
+            friend_collided = true;
+            last_object = other.gameObject;
         }
     }
 
@@ -63,6 +78,9 @@ public class HealthController : MonoBehaviour
         }
         if(other.tag == "Coche"){
             car_collided = false;
+        }
+        if(other.tag == "Amigo"){
+            friend_collided = false;
         }
     }
 
@@ -75,7 +93,6 @@ public class HealthController : MonoBehaviour
         audioSource.Play();
         Invoke("launch",4);
     }
-
     void launch(){
         mesh.enabled = true;
         current_cubata.GetComponent<Rigidbody>().AddForce(spawnpoint.forward*500f);
@@ -87,18 +104,31 @@ public class HealthController : MonoBehaviour
     void kill(){
         Destroy(current_cubata);
     }
+    
     //CAR
     void car_car(){
-        Rigidbody gameObjectsRigidBody = current_car.AddComponent<Rigidbody>();
-        current_car.GetComponent<Rigidbody>().AddForce(spawnpoint.forward*500f);
+        Rigidbody gameObjectsRigidBody = last_object.AddComponent<Rigidbody>();
+        last_object.GetComponent<Rigidbody>().AddForce(spawnpoint.forward*500f);
     }
     
+
+    //FRIENDS
+     void talk_friend(){
+        last_object.GetComponent<TalkScript>().talk();
+     }
+
+
+    
+
     //health
     void OnGUI(){
+        string health_type;
+
+        //SED
+        health_type = "alcohol";
         int posX = drink_health_position[0];
         int posY = drink_health_position[1];
         int height = drink_health_position[2];
-
         float percentage = healthBarWidth * (current_drink_health/100f);
 
         GUI.DrawTexture (new Rect (posX, posY, (healthBarWidth * 2), height), healthBackground);       
@@ -109,36 +139,42 @@ public class HealthController : MonoBehaviour
         HUDSkin.normal.textColor = Color.green;
         HUDSkin.fontStyle = FontStyle.BoldAndItalic;
         HUDSkin.fontSize = 16;
-        GUI.Label(new Rect(30, 28, 100, 50), (int)(current_drink_health) + "/" + maxHP.ToString(), HUDSkin);
+        GUI.Label(new Rect(posX + 300, posY, 100, 50), (int)(current_drink_health) + "/" + maxHP.ToString() + " " + health_type, HUDSkin);
+
+        //AMOR
+        health_type = "amor";
+        posX = love_health_position[0];
+        posY = love_health_position[1];
+        height = love_health_position[2];
+        percentage = healthBarWidth * (current_love_health/100f);
+
+        GUI.DrawTexture (new Rect (posX, posY, (healthBarWidth * 2), height), healthBackground);       
+        GUI.DrawTexture (new Rect (posX, posY, (percentage * 2), height), healthForeground);
+       
+        HUDSkin = new GUIStyle();
+        //control_health(current_drink_health, percentage, current_drink_health);
+        HUDSkin.normal.textColor = Color.green;
+        HUDSkin.fontStyle = FontStyle.BoldAndItalic;
+        HUDSkin.fontSize = 16;
+        GUI.Label(new Rect(posX + 300, posY, 100, 50), (int)(current_love_health) + "/" + maxHP.ToString() + " " + health_type, HUDSkin);
+        
+        //AMISTAD
+        health_type = "social";
+        posX = friend_health_position[0];
+        posY = friend_health_position[1];
+        height = friend_health_position[2];
+        percentage = healthBarWidth * (current_friend_health/100f);
+
+        GUI.DrawTexture (new Rect (posX, posY, (healthBarWidth * 2), height), healthBackground);       
+        GUI.DrawTexture (new Rect (posX, posY, (percentage * 2), height), healthForeground);
+       
+        HUDSkin = new GUIStyle();
+        //control_health(current_drink_health, percentage, current_drink_health);
+        HUDSkin.normal.textColor = Color.green;
+        HUDSkin.fontStyle = FontStyle.BoldAndItalic;
+        HUDSkin.fontSize = 16;
+        GUI.Label(new Rect(posX + 300, posY, 100, 50), (int)(current_friend_health) + "/" + maxHP.ToString() + " " + health_type, HUDSkin);
+        
     }
 
-    void control_health(float curHP, float percentage, float previousHealth){
-        if(curHP == maxHP){
-            HUDSkin.normal.textColor = Color.green;
-            HUDSkin.fontStyle = FontStyle.BoldAndItalic;
-            HUDSkin.fontSize = 16;
-            GUI.Label(new Rect(30, 28, 100, 50), (int)(previousHealth) + "/" + maxHP.ToString(), HUDSkin);
-           
-        } else if(curHP < maxHP){
-           
-            if(percentage <= 50  || percentage >= 25){
-                HUDSkin.normal.textColor = Color.yellow;
-                HUDSkin.fontStyle = FontStyle.BoldAndItalic;
-                HUDSkin.fontSize = 16;
-                GUI.Label(new Rect(30, 28, 100, 50), (int)(previousHealth) + "/" + maxHP.ToString(), HUDSkin);
-       
-            } else if (percentage < 25){
-                HUDSkin.normal.textColor = Color.red;
-                HUDSkin.fontStyle = FontStyle.BoldAndItalic;
-                HUDSkin.fontSize = 16;
-                GUI.Label(new Rect(30, 28, 100, 50), (int)(previousHealth) + "/" + maxHP.ToString(), HUDSkin);
-           
-            } else {
-                HUDSkin.normal.textColor = Color.white;
-                HUDSkin.fontStyle = FontStyle.BoldAndItalic;
-                HUDSkin.fontSize = 16;
-                GUI.Label(new Rect(30, 28, 100, 50), (int)(previousHealth) + "/" + maxHP.ToString(), HUDSkin);
-            }  
-        }
-    }
 }
