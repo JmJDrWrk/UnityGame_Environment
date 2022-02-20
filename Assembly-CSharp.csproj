@@ -37,10 +37,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Brick Project Studio\SE Basic Assets\Scripts and Animations\First Person Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Player\HealthManager.cs" />
      <Compile Include="Assets\Brick Project Studio\Apartment Kit\Scripts &amp; Animation\Z Axis -1\Drawer_Pull_Zopp.cs" />
      <Compile Include="Assets\Brick Project Studio\SE Basic Assets\Scripts and Animations\Drawer\X Axis\Drawer_Pull_X.cs" />
      <Compile Include="Assets\Brick Project Studio\SE Basic Assets\Scripts and Animations\Drawer\Z Axis\Drawer_Pull_Z.cs" />
      <Compile Include="Assets\Brick Project Studio\SE Basic Assets\Scripts and Animations\First Person Player\SceneSwitchGen.cs" />
+     <Compile Include="Assets\Scripts\Player\HealthController.cs" />
      <Compile Include="Assets\Characters\Characters\Scripts\PlayerHealthBar.cs" />
      <Compile Include="Assets\Brick Project Studio\Apartment Kit\Scripts &amp; Animation\Closet\ClosetopencloseDoor.cs" />
      <Compile Include="Assets\Brick Project Studio\Apartment Kit\Scripts &amp; Animation\TableFlip\TableFlipR.cs" />
@@ -63,8 +65,7 @@
      <Compile Include="Assets\Brick Project Studio\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow1.cs" />
      <Compile Include="Assets\Characters\Characters\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\Door\DoorManager.cs" />
-     <Compile Include="Assets\Scripts\Player\HealthManager.cs" />
-     <Compile Include="Assets\Scripts\Player\HealthController.cs" />
+     <Compile Include="Assets\Scripts\Friends\TalkScript.cs" />
      <None Include="Assets\Brick Project Studio\Apartment Kit\Scenes\Message For You Please Read Me.txt" />
     <Reference Include="UnityEngine">
         <HintPath>U:\UnityProjects\2020.3.28f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
