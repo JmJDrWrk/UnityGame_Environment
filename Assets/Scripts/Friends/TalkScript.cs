@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TalkScript : MonoBehaviour
 {   
+    private GameObject lastPlayer;
     private AudioClip next_clip;
     private List<AudioClip> elapsed_clips;
     public List<AudioClip> clips;
@@ -25,6 +26,7 @@ public class TalkScript : MonoBehaviour
     }
 
     void magia(){
+        lastPlayer.GetComponent<MainPlayerRespond>().respond();
         Debug.Log("MAGIA");
         elapsed_clips.Add(next_clip);
         clips.Remove(next_clip);
@@ -33,6 +35,7 @@ public class TalkScript : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other){
+        lastPlayer = other.gameObject;
         Debug.Log("onTriggerEnter");
         if(other.tag == "Player"){
             Debug.Log("Player enter");
