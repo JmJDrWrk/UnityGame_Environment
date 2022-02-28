@@ -10,7 +10,7 @@ public class MainPlayerRespond : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {   
         source = gameObject.GetComponent<AudioSource>();
     }
 
@@ -21,6 +21,7 @@ public class MainPlayerRespond : MonoBehaviour
     }
 
     public void respond(){
+        HealthController.current_friend_health += 10;
         source.clip = clips[1];
         source.Play();
     }

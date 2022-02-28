@@ -31,6 +31,7 @@ public class HealthController : MonoBehaviour
     //SED
     public static float current_drink_health; // current HP
     int[] drink_health_position = new int[3] {10,10,15};
+    public AudioClip drinkClip;
 
     //AMOR
     public static float current_love_health; // current HP
@@ -90,6 +91,7 @@ public class HealthController : MonoBehaviour
         Rigidbody gameObjectsRigidBody = current_cubata.AddComponent<Rigidbody>();
         mesh = current_cubata.GetComponent<MeshRenderer>();
         mesh.enabled = false;
+        audioSource.clip = drinkClip;
         audioSource.Play();
         Invoke("launch",4);
     }
