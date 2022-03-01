@@ -15,7 +15,7 @@ public class Robame : MonoBehaviour
     void Update()
     {
         if(showmsg && Input.GetKeyDown(KeyCode.W)){
-            gameObject.GetComponent<Rigidbody>().AddForce(gameObject.transform.forward * 5000f);
+            gameObject.GetComponent<Rigidbody>().AddForce(gameObject.transform.forward * 500f);
         }
     }
 
