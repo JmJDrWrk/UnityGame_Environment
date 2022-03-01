@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MouseLook : MonoBehaviour
-{
+{   
+    public static bool allowed = false;
     public float Sensibilidad = 100;
     public Transform playerBody;
     public float xRotacion;
@@ -12,7 +13,8 @@ public class MouseLook : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
     void Update()
-    {
+    {   
+        if(MouseLook.allowed){
         float mouseX = Input.GetAxis("Mouse X")*Sensibilidad*Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y")*Sensibilidad*Time.deltaTime;
 
@@ -23,7 +25,7 @@ public class MouseLook : MonoBehaviour
         
         playerBody.Rotate(Vector3.up * mouseX);
         print(xRotacion);
-        
+        }
     }
 
 

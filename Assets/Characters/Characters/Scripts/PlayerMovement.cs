@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    
+    public static bool allowed = false;
+
     public CharacterController cc;
     public float Velocidad=12;
 
@@ -29,7 +30,9 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Update()
-    {   
+    {   if(allowed){
+
+    
         oldvelocity = velocity.y;
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, floorMask);
         
@@ -83,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
 
         velocity.y += Gravedad * Time.deltaTime;
         cc.Move(velocity * Time.deltaTime);
-
+    }
     }
     void setDrinkfalse(){
         isdrinking = false;

@@ -1299,6 +1299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400078}
   - component: {fileID: 11100000}
+  - component: {fileID: 8062311804374794053}
   m_Layer: 0
   m_Name: Audience 1
   m_TagString: Untagged
@@ -1343,3 +1344,17 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!136 &8062311804374794053
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.1979852
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5989926, z: 0}
