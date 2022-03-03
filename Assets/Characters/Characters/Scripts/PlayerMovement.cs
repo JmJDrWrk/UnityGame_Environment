@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
-{
+{   
+    public Camera cam1;
+    public Camera cam2;
+
     public static bool allowed = false;
 
     public CharacterController cc;
@@ -27,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
     void Start(){
         anim = gameObject.GetComponent<Animation>();
         animator = gameObject.GetComponent<Animator>();
+        cam2.enabled = false;
+        cam1.enabled = true;
     }
 
     void Update()
@@ -62,6 +67,8 @@ public class PlayerMovement : MonoBehaviour
             
         }else if(Input.GetKeyDown(KeyCode.E) && !animating)      {
             isdrinking = true;
+            cam1.enabled = false;
+            cam2.enabled = true;
             print("PLAYING ANIM 2");
             anim.Play("drinkAnim");
             //anim.wrapMode=WrapMode.;
@@ -89,6 +96,8 @@ public class PlayerMovement : MonoBehaviour
     }
     }
     void setDrinkfalse(){
+        cam1.enabled = true;
+        cam2.enabled = false;
         isdrinking = false;
     }
 }
