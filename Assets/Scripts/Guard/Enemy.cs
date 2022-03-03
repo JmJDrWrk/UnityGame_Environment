@@ -21,7 +21,7 @@ public class Enemy : MonoBehaviour
     }
 
     public void Comportamiento_Enemigo(){
-        if(Vector3.Distance(transform.position, target.transform.position) > 20){
+        if(Vector3.Distance(transform.position, target.transform.position) > 5){
             //ani.SetBool("run", false);
             cronometro += 1 * Time.deltaTime;
             if(cronometro >=4){
