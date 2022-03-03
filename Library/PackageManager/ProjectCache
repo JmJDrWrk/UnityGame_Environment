@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637816560877095355
+      ticks: 637817573235030137
     m_Hash: 1057529631
   m_LockFileStatus:
     m_FilePath: U:/UnityProjects/UnityGame_Environment/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637816560877095355
+      ticks: 637817573235035157
     m_Hash: 1165375285
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -2749,6 +2749,7 @@ m_PackageAssets:
         - 1.1.0-pre.11
         - 1.1.0-pre.41
         - 1.1.0-pre.69
+        - 1.2.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -2758,6 +2759,7 @@ m_PackageAssets:
         - 1.1.0-pre.11
         - 1.1.0-pre.41
         - 1.1.0-pre.69
+        - 1.2.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
