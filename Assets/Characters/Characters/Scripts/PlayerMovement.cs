@@ -56,7 +56,10 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 move = transform.right * x+transform.forward*z;
         cc.Move(move*Velocidad*Time.deltaTime);
-
+        if(Input.GetKeyDown(KeyCode.LeftAlt)){
+            if(cam1.enabled){cam1.enabled = false; cam2.enabled = true;}
+            else{cam1.enabled =true; cam2.enabled = false;}
+        }
         if (Input.GetKeyDown(KeyCode.W) && !animating)
         {   
             isdrinking = false;
