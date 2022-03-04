@@ -19,4 +19,10 @@ public class ApplicationManager : MonoBehaviour {
 		Application.Quit();
 		#endif
 	}
+
+	void Update (){
+		if(Input.GetKeyDown(KeyCode.Q)){
+			go.SetActive(true);
+		}
+	}
 }
