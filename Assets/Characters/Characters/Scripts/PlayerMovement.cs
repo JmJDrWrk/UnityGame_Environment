@@ -44,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
 
         if(HealthController.current_drink_health <50){Velocidad=0.5f;}
         if(HealthController.current_drink_health >50){Velocidad=2f;}
+
+        if(HealthController.current_friend_health<0){Velocidad=0;}
     
         oldvelocity = velocity.y;
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, floorMask);
