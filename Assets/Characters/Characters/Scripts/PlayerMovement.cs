@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isdrinking = false;
     private float oldvelocity;
 
+    public float ElapsedTimeSpeed;
 
     void Start(){
         anim = gameObject.GetComponent<Animation>();
@@ -36,7 +37,13 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {   if(allowed){
+        float num = ElapsedTimeSpeed * Time.deltaTime;
+        HealthController.current_drink_health -= num;
+        HealthController.current_love_health -= num;
+        HealthController.current_friend_health -= num;
 
+        if(HealthController.current_drink_health <50){Velocidad=0.5f;}
+        if(HealthController.current_drink_health >50){Velocidad=2f;}
     
         oldvelocity = velocity.y;
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, floorMask);
