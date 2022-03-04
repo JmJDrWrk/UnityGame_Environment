@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\InteractuableScript.cs" />
      <Compile Include="Assets\Brick Project Studio\SE Basic Assets\Scripts and Animations\Doors\opencloseDoor1.cs" />
      <Compile Include="Assets\Brick Project Studio\Apartment Kit\Scripts &amp; Animation\Windows\opencloseWindowApt.cs" />
+     <Compile Include="Assets\Scripts\Guard\Enemy.cs" />
      <Compile Include="Assets\Brick Project Studio\Apartment Kit\Scripts &amp; Animation\Slide\BRGlassDoor.cs" />
      <Compile Include="Assets\Stroboscopic.cs" />
      <Compile Include="Assets\Characters\Characters\Scripts\TalkOnPlayerEnter.cs" />
@@ -80,8 +81,10 @@
      <Compile Include="Assets\Characters\Characters\Scripts\Movement.cs" />
      <Compile Include="Assets\Unity UI Samples\Scripts\TiltWindow.cs" />
      <Compile Include="Assets\Scripts\Door\DoorManager.cs" />
-     <Compile Include="Assets\Scripts\Guard\Enemy.cs" />
-     <Compile Include="Assets\Scripts\Guard\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Lights.cs" />
+     <Compile Include="Assets\Scripts\ElectricBox\CrazyLight.cs" />
+     <Compile Include="Assets\RotateCamera.cs" />
+     <None Include="Assets\SpaceZeta_Spotlight\Info.txt" />
      <None Include="Assets\Unity UI Samples\Textures and Sprites\SF UI\Background\LICENSE.txt" />
      <None Include="Assets\Unity UI Samples\Materials\UI-Default-No-Alpha.shader" />
      <None Include="Assets\Unity UI Samples\Fonts\Jupiter\LICENSE.txt" />
