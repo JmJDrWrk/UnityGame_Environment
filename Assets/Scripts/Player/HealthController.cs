@@ -43,9 +43,9 @@ public class HealthController : MonoBehaviour
 
     void Start()
     {   
-        current_drink_health = 50f;
-        current_love_health = 20f;
-
+        current_drink_health = 90f;
+        current_love_health = 90f;
+        current_friend_health = 90f;
     }
 
 
@@ -55,6 +55,7 @@ public class HealthController : MonoBehaviour
             if(cubata_collided){drink();}
             if(car_collided){car_car();}
             if(friend_collided){talk_friend();}
+            
         }
     }
 

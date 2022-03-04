@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
 
     public GameObject target;
     public bool atacando;
+    private bool sirenPlaying = false;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class Enemy : MonoBehaviour
     public void Comportamiento_Enemigo(){
         if(Vector3.Distance(transform.position, target.transform.position) > 5){
             //ani.SetBool("run", false);
+
             cronometro += 1 * Time.deltaTime;
             if(cronometro >=4){
                 rutina = Random.Range(0, 2);
@@ -48,15 +50,35 @@ public class Enemy : MonoBehaviour
             lookPos.y = 0;
             var rotation = Quaternion.LookRotation(lookPos);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 2);
+
+            if(!sirenPlaying){
+                sirenPlaying = true;
+                gameObject.GetComponent<AudioSource>().Play();
+                Invoke("turnDownSiren",2.5f);
+            }
             //ani.SetBool("walk", false);
             //ani.SetBool("run", true);
             //ani.GetComponent<Animation>().wrapMode = WrapMode.PingPong;
+
             transform.Translate(Vector3.forward * 1 * Time.deltaTime);
         }
     }
+
+    void OnTriggerEnter(Collider other){
+        if(other.tag == "Player" && gameObject.tag == "Enemy"){
+            HealthController.current_friend_health -= 90;
+
+        }
+
+    }
+
     // Update is called once per frame
     void Update()
     {
         Comportamiento_Enemigo();
+    }
+
+    void turnDownSiren(){
+        sirenPlaying = false;
     }
 }

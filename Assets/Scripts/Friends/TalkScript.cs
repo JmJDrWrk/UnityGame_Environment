@@ -40,6 +40,7 @@ public class TalkScript : MonoBehaviour
         if(other.tag == "Player"){
             Debug.Log("Player enter");
             talk();
+            HealthController.current_friend_health +=10;
         }
     }
 
