@@ -10,6 +10,8 @@ TagManager:
   - Cubata
   - Coche
   - daemon
+  - Enemy
+  - Independent
   layers:
   - Default
   - TransparentFX
