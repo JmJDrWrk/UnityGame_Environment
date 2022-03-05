@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {   
     public Camera cam1;
@@ -37,6 +37,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {   if(allowed){
+
+
+        if(Input.GetKeyDown(KeyCode.Backspace)){ 
+            SceneManager.LoadScene("UI");
+        }
+
         float num = ElapsedTimeSpeed * Time.deltaTime;
         HealthController.current_drink_health -= num;
         HealthController.current_love_health -= num;

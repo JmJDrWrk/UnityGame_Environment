@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class HealthController : MonoBehaviour
 {   
+    public static bool lights_enabled = false;
+
     //Collided Booleans 
     private GameObject current_cubata;
     private bool cubata_collided = false;
@@ -40,6 +42,10 @@ public class HealthController : MonoBehaviour
     //AMISTAD
     public static float current_friend_health; // current HP
     int[] friend_health_position = new int[3] {10,50,15};
+
+    //MONEY
+    public static float current_money_health; // current HP
+    int[] money_health_position = new int[3] {10,70,15};
 
     void Start()
     {   
@@ -177,6 +183,25 @@ public class HealthController : MonoBehaviour
         HUDSkin.fontStyle = FontStyle.BoldAndItalic;
         HUDSkin.fontSize = 16;
         GUI.Label(new Rect(posX + 300, posY, 100, 50), (int)(current_friend_health) + "/" + maxHP.ToString() + " " + health_type, HUDSkin);
+
+
+
+        //MONEY
+        health_type = "money";
+        posX = money_health_position[0];
+        posY = money_health_position[1];
+        height = money_health_position[2];
+        percentage = healthBarWidth * (current_money_health/100f);
+
+        GUI.DrawTexture (new Rect (posX, posY, (healthBarWidth * 2), height), healthBackground);       
+        GUI.DrawTexture (new Rect (posX, posY, (percentage * 2), height), healthForeground);
+       
+        HUDSkin = new GUIStyle();
+        //control_health(current_drink_health, percentage, current_drink_health);
+        HUDSkin.normal.textColor = Color.green;
+        HUDSkin.fontStyle = FontStyle.BoldAndItalic;
+        HUDSkin.fontSize = 16;
+        GUI.Label(new Rect(posX + 300, posY, 100, 50), (int)(current_money_health) + "/" + maxHP.ToString() + " " + health_type, HUDSkin);
         
     }
 

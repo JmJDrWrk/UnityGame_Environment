@@ -41,7 +41,7 @@ public class Lights : MonoBehaviour
          foreach(AudioSource sc in scs)
         {
             if(sc.tag!="Independent"){
-                sc.volume = 0;
+                sc.volume = 0.1f;
                 Debug.Log(sc);
             }
         }
@@ -64,7 +64,13 @@ public class Lights : MonoBehaviour
                 sc.volume = 0.75f;
                 Debug.Log(sc);
             }
+
+            if(sc.tag=="Enemy"){
+                sc.volume = 0.05f;
+            }
         }
+
+        HealthController.lights_enabled = true;
      }
 
     void OnTriggerExit(Collider other){
@@ -77,7 +83,7 @@ public class Lights : MonoBehaviour
     private void OnGUI(){ 
         if(showmsg){
         Debug.Log("Light--gui");
-        string labelText = "Press E to steal money";
+        string labelText = "Press F to PartyRock";
         GUI.Box(new Rect(140,Screen.height-50,Screen.width-300,120),(labelText));
         }
     }

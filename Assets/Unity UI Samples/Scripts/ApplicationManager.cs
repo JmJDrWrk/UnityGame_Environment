@@ -11,6 +11,11 @@ public class ApplicationManager : MonoBehaviour {
 		PlayerMovement.allowed = true;
 		Destroy(FrontViewCamera);
 	}
+
+	void Start(){
+		go.SetActive(false);
+		Destroy(FrontViewCamera);
+	}
 	public void Quit () 
 	{
 		#if UNITY_EDITOR
@@ -25,4 +30,7 @@ public class ApplicationManager : MonoBehaviour {
 			go.SetActive(true);
 		}
 	}
+
+	
+
 }
