@@ -49,6 +49,7 @@ public class HealthController : MonoBehaviour
 
     void Start()
     {   
+        //GameObject.FindWithTag("Musica").GetComponent<AudioSource>().volume = 1;
         current_drink_health = 90f;
         current_love_health = 90f;
         current_friend_health = 90f;

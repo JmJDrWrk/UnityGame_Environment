@@ -15,7 +15,8 @@ public class Robame : MonoBehaviour
     void Update()
     {
         if(showmsg && Input.GetKeyDown(KeyCode.E)){
-            gameObject.GetComponent<Rigidbody>().AddForce(gameObject.transform.up * 1000f);
+            gameObject.GetComponent<Rigidbody>().AddForce(gameObject.transform.right * 1000f);
+            HealthController.current_money_health += 10;
         }
     }
 
