@@ -44,14 +44,15 @@ public class PlayerMovement : MonoBehaviour
         }
 
         float num = ElapsedTimeSpeed * Time.deltaTime;
-        HealthController.current_drink_health -= num;
-        HealthController.current_love_health -= num;
-        HealthController.current_friend_health -= num;
+        //HealthController.current_drink_health -= num;
+        //HealthController.current_love_health -= num;
+        //HealthController.current_friend_health -= num;
 
-        if(HealthController.current_drink_health <50){Velocidad=0.5f;}
-        if(HealthController.current_drink_health >50){Velocidad=2f;}
+        //if(HealthController.current_drink_health <50){Velocidad=0.5f;}
+        //if(HealthController.current_drink_health >80){Velocidad=1.6f;}
+        //else if(HealthController.current_drink_health >50){Velocidad=1.2f;}
 
-        if(HealthController.current_friend_health<0){Velocidad=0;}
+        //if(HealthController.current_friend_health<0){SceneManager.LoadScene("UI");}
     
         oldvelocity = velocity.y;
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, floorMask);
@@ -95,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
             isdrinking = true;
             Invoke("setDrinkfalse",1);
             //move very slow
-            
+        
             
         }
 
