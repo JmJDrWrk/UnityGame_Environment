@@ -1,0 +1,1125 @@
+<REAPER_PROJECT 0.1 "6.36/win64" 1646496265
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3455 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 169.80138087336437
+  ZOOM 18.0998851155557 2435 0
+  VZOOMEX 22 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 113 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 63.48106591088296 25.13828110483181
+  SELECTION2 63.48106591088296 25.13828110483181
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 -1 -1 -1 0 0 0 -1 -1 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {AEF72C9D-5F19-43B8-9D2B-7B75C36D1AE8}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {E2647CD4-A5AD-4CD5-95BD-F02EB7DA1902}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {08982DFD-246F-435D-B99E-519E54493E7D}
+    NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
+    FREEMODE 0
+    SEL 1
+    REC 0 0 1 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {08982DFD-246F-435D-B99E-519E54493E7D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 3.71681415929204
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.268309 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ED09C314-FF7A-4FB1-8948-1D131714922F}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {95316873-DC2D-4DD7-BA48-5EC6354E1791}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 3.44850548193338
+      SNAPOFFS 0
+      LENGTH 4.33884152087367
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.268309 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {085313B0-0E6C-44AE-A85F-41DAE05D3965}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 3.4312349621381
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B1C129D6-4AE2-45F5-BA42-93FEC996E8C7}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 7.8083147027783
+      SNAPOFFS 0
+      LENGTH 3.68166059478651
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F0638754-73CB-486B-8815-FE27FA2920CF}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB7B55E6-F077-4099-9567-275DC89FF5CF}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 11.48997529756018
+      SNAPOFFS 0
+      LENGTH 3.68166059478648
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8075AE7B-F8B0-4EBA-B5E0-321C63BAFD97}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {95779C8D-1AA6-4F23-9CD8-EBD32E8B5D3C}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 15.17163589232808
+      SNAPOFFS 0
+      LENGTH 3.68166059478647
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {80EB0136-D199-4558-8F63-EE0FC827621B}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {93FEDA3E-2E6B-4415-BC4E-0CDCF3873FF9}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 18.85329648709593
+      SNAPOFFS 0
+      LENGTH 3.68166059478643
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4FBCE9DA-B1BC-4421-925F-784907812AEB}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F0CA4B6A-9DB7-4775-BF5B-A3B1DDAFD1E7}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 22.53495708186376
+      SNAPOFFS 0
+      LENGTH 3.6816605947865
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B2D6F639-3975-4705-9F7E-286AC55590DA}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3966D75B-184C-4055-8AC2-824D81ADBFC8}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 26.21661767674812
+      SNAPOFFS 0
+      LENGTH 3.6816605947865
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {50216E0A-CDCB-4ECE-A484-E5CAE875E4DC}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7D297E5F-41AC-49BD-AC42-E9A3FC7FF51C}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 29.89827827151601
+      SNAPOFFS 0
+      LENGTH 3.68166059478649
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F191C675-B0BB-4233-822E-38B71F32E1B4}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F29454AF-3EB5-4F8E-9CD3-8B63084AEDC5}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 33.57993886628391
+      SNAPOFFS 0
+      LENGTH 3.68166059478649
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {460966CF-97EC-4FEF-817E-B38CD8B7D2FB}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {794811C3-C39C-4114-BCFB-3F9077CCCE58}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 37.26159946105179
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {712D635A-55C4-47A6-A1FD-E0E1D2125105}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3E755541-51E5-4CD7-B017-11E323BD99C1}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 40.94326005585026
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {84B58B0E-D0C1-48C5-8D85-695C152595CF}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {397F0886-24AB-4C58-AE96-CB99233798A5}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 44.62492065061815
+      SNAPOFFS 0
+      LENGTH 3.68166059478648
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B9313A4F-AC0D-406C-ACA4-704C0214178F}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {423762B0-3489-41B0-91A6-7428DFEEF0CC}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 48.30658124538604
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1F668B10-4B63-4049-B970-1BB93FFBF36A}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1E82CDC3-8E46-4060-AACD-E705D7976A15}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 51.98824184015393
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {879E8F41-A144-44CA-914A-45D96EE42989}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {47E220C6-E4F7-430B-BC92-D752E5F2C757}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 55.66990243503824
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {937FB421-E1B5-4760-AC57-548B68F4DD17}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {65547B95-455B-4B06-B40F-4CCDF1B9E936}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 59.35156302980613
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {17CF051F-505D-4983-8BF6-4EEDF500F05D}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5C4EFA59-72A7-4254-95BD-B02E57B4BE3C}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 63.03322362457402
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9B91DF84-0096-4E58-AA4B-7B5F3557E84F}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {137FC4E7-B8DE-437E-A9A4-C3B29E5A064F}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 66.71488421934191
+      SNAPOFFS 0
+      LENGTH 3.68166059478648
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {65CE7182-B0CD-43BB-8F27-72A339FB4BFE}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D0A5392D-7429-4818-B500-6A277D55B8A0}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 70.3965448141098
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {92DF0AF1-3839-49C2-8A6E-9B089FB9CAD7}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {695452EC-D0C4-47E1-9A5F-120E806AF553}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 74.07820540887769
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {02F1CDD2-5007-4C54-9700-6B4FB654D10C}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5F826EA6-AE80-417D-9AB5-DDB7F68758A4}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 77.75986600364558
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0A46FF94-805B-4D20-B0C6-4C728F23FF4A}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9FA4E3B6-E608-4033-943E-E3C87C964011}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 81.44152659852989
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {758518F1-9F3D-4824-9E5B-2FFEF84A052F}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A7F7DD1D-E6E6-4E81-90BB-F7F3DB18E83D}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 85.12318719329778
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EDDB0FB4-2AA4-4A57-B6BF-7F86D000648D}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A948B091-6325-4B81-8AB0-91105355D774}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 88.80484778806567
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {81595B62-CDBC-47F0-A24E-7A31EC45E8EA}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E2200102-51FF-475F-A142-91508ECA5034}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 92.48650838283356
+      SNAPOFFS 0
+      LENGTH 3.68166059478645
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7E795367-FA31-4C51-B006-AA8DB6523389}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {63DF2C94-5285-4927-B267-86431C4C2538}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 96.16816897760145
+      SNAPOFFS 0
+      LENGTH 3.68166059478648
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DD906D95-8D87-4550-805D-B4C90CC49995}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8EA078BB-800F-42E5-9480-D38C2B071591}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 99.84982957236934
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {665CC004-1825-41DA-929D-FEA185D34D9B}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7DA6CFE0-87C0-4D7A-913D-9B27862226CA}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 103.53149016725365
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EE0AE133-B8F5-4315-A89A-83596F511D10}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4CADA4C1-AC22-40AC-AB98-8CBC0E6C1825}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 107.21315076202154
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1975B346-65EE-439B-9533-7C22833E6839}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F05569AE-1864-4113-87E5-D455A9AA9884}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 110.89481135678943
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {094AB2C2-8EE4-4D2D-A85E-68972EB4551E}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7901CEF0-71FE-468E-A178-3C3EB553D87F}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 114.57647195155732
+      SNAPOFFS 0
+      LENGTH 3.68166059478646
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {90D914BC-F8A8-4862-B7AD-3498B9048F2D}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0C604942-B9EE-49CB-94D2-2BECA34D3E05}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 118.25813254632521
+      SNAPOFFS 0
+      LENGTH 3.68166059478648
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B8AEE12B-6A98-4BAB-8945-902F07FA875C}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3A200219-1FAA-4803-AC6E-EF033E63AD5F}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 121.93979314109311
+      SNAPOFFS 0
+      LENGTH 3.68166059478645
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {55448EBB-436B-4DA6-8C2E-04A898C2F14A}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6170A053-3443-4114-962A-FB0FF075504A}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 125.62145373597741
+      SNAPOFFS 0
+      LENGTH 3.68166059478642
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F44000D1-1EC8-4215-B68F-B0DBEED2512D}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {72CB4F7D-F991-4EC8-8347-7EB2609EE122}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 129.3031143307453
+      SNAPOFFS 0
+      LENGTH 3.68166059478645
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6B01632B-5A21-4F50-8179-B7B0AFC783BD}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2B761F22-3CE7-45EE-961D-675C8EDE4FCD}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 132.98477492551319
+      SNAPOFFS 0
+      LENGTH 3.68166059478645
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9929D45F-7A31-4C7D-8687-D023B88FA65F}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3ABC54B0-2738-48E2-8303-C7C77BAD9D95}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 136.66643552028108
+      SNAPOFFS 0
+      LENGTH 3.68166059478651
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3D86818A-EFD1-4328-82D2-5189680A7D55}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {56E8376D-5ED9-467F-8288-5062B2F09B57}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 140.348096115049
+      SNAPOFFS 0
+      LENGTH 3.68166059478645
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4FE02355-6531-4B2D-9BB0-BF0817198D28}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7923C473-896A-451C-BB27-7630946BDECC}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 144.02975670981687
+      SNAPOFFS 0
+      LENGTH 3.68166059478642
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B7C68223-0FF4-4517-AFEA-966762626860}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C86342E1-7085-4026-AF06-4312CC2C8F61}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 147.71141730470117
+      SNAPOFFS 0
+      LENGTH 3.68166059478642
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0EDE1861-6CCC-40F8-B3EC-AA1161727346}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1F6B0DB7-7445-4D93-8460-430C5EA6FD6A}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 151.39307789946906
+      SNAPOFFS 0
+      LENGTH 3.68166059478648
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {05E0D8FF-789B-4CA9-A24F-B47D28609440}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8F85F577-1E41-43E9-B2FB-534464738976}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 155.07473849423695
+      SNAPOFFS 0
+      LENGTH 3.68166059478648
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7EC181B5-3957-4C05-A6F2-F80DBAB4A3B4}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C02DB66A-05C7-4EC0-8B12-6D08D342CEA4}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 158.75639908900484
+      SNAPOFFS 0
+      LENGTH 3.68166059478642
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A61C938E-ED2D-4BFC-860C-AE19016BFA25}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B9AFE9F8-A43F-4020-87C6-6D9FFAC6111E}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 162.43805968377274
+      SNAPOFFS 0
+      LENGTH 3.68166059478648
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {39CDCF47-BFDB-4652-B196-86693C18D6A3}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {275A094C-8BA3-4719-B942-D965D5DC2188}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 166.11972027854063
+      SNAPOFFS 0
+      LENGTH 3.68166059478642
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {C18C3899-F04E-47EF-947F-1D6A9CB02461}
+      IID 3
+      NAME "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4.08841588822535
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {76811090-3C53-4D02-A238-BDE112D40E17}
+      <SOURCE MP3
+        FILE "yt1s.com - LMFAO ft Lauren Bennett GoonRock  Party Rock Anthem Official Audio.mp3" 1
+      >
+    >
+  >
+>
