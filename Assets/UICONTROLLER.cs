@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class UICONTROLLER : MonoBehaviour
 {
+    public static bool first = true;
+
     void Update() {
         if(Input.GetKeyDown(KeyCode.Escape)) {
             SceneManager.LoadScene("SampleScene");

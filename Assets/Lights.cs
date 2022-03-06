@@ -26,8 +26,18 @@ public class Lights : MonoBehaviour
 
     private Light[] lights;
     private AudioSource[] scs;
+    private ParticleSystem[] ps;
      // Use this for initialization
     void Start (){
+
+        //  ps = FindObjectsOfType(typeof(ParticleSystem)) as ParticleSystem[];
+        //  foreach(ParticleSystem p in ps)
+        // {
+          
+        //     p.enableEmission = false;
+
+        // }
+
          lights = FindObjectsOfType(typeof(Light)) as Light[];
          foreach(Light light in lights)
         {
@@ -65,7 +75,9 @@ public class Lights : MonoBehaviour
                 sc.volume = 0.35f;
                 Debug.Log(sc);
             }
-
+            if(sc.tag =="daemon"){
+                sc.volume = 0;
+            }
             if(sc.tag=="Enemy"){
                 sc.volume = 0.05f;
             }

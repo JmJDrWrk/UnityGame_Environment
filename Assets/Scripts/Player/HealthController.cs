@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class HealthController : MonoBehaviour
 {   
     public static bool lights_enabled = false;
@@ -52,21 +52,24 @@ public class HealthController : MonoBehaviour
 
     //TIEMPO
     int[] time_health_position = new int[3] {300,10,15};
+    
+    void Awake(){
+        if(UICONTROLLER.first){SceneManager.LoadScene("UI");UICONTROLLER.first=false;}
+    }
 
-    void Start()
-    {   
+    void  Start(){   
         //GameObject.FindWithTag("Musica").GetComponent<AudioSource>().volume = 1;
-        current_drink_health = 90f;
+        current_drink_health = 70f;
         current_love_health = 90f;
         current_friend_health = 90f;
-        Invoke("revert_summary",5);
+        Invoke("revert_summary",10);
     }
    
    void revert_summary(){summary=false;}
 
     void Update()
     {
-        timeLeft -= Time.deltaTime;
+        if(lights_enabled){timeLeft -= Time.deltaTime;}
 
         if(Input.GetKeyDown(KeyCode.E)){
             if(cubata_collided){drink();}
@@ -111,7 +114,7 @@ public class HealthController : MonoBehaviour
         mesh.enabled = false;
         audioSource.clip = drinkClip;
         audioSource.Play();
-        Invoke("launch",4);
+        Invoke("launch",2);
     }
     void launch(){
         mesh.enabled = true;

@@ -69,7 +69,7 @@ public class Transformer : MonoBehaviour
             var rotation = Quaternion.LookRotation(lookPos);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 2);
 
-            if(!sirenPlaying && Ataque){
+            if(!sirenPlaying && Ataque && gameObject.tag != "Untagged" && HealthController.lights_enabled){
                 sirenPlaying = true;
                 sc.clip = ad3;
                 gameObject.GetComponent<AudioSource>().Play();
@@ -84,13 +84,13 @@ public class Transformer : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other){
-        if(other.tag == "Player" && Ataque){
+        if(other.tag == "Player" && Ataque && gameObject.tag != "Untagged" && HealthController.lights_enabled){
             HealthController.current_friend_health -= 90;  
             lastColl = other.gameObject;
             Debug.Log("PLAYING AUDIO");
         }
 
-        if(other.tag == "Player" && !Ataque){
+        if(other.tag == "Player" && !Ataque && gameObject.tag != "Untagged" && HealthController.lights_enabled){
             showmsg = true;  
             lastColl = other.gameObject;
             sc.clip = ad1;
@@ -101,7 +101,7 @@ public class Transformer : MonoBehaviour
     }
 
     void OnTriggerExit(Collider other){
-        if(other.tag == "Player" && !Ataque){
+        if(other.tag == "Player" && !Ataque && gameObject.tag != "Untagged" && HealthController.lights_enabled){
           showmsg = false;  
         }
     }
@@ -111,7 +111,7 @@ public class Transformer : MonoBehaviour
     {
         Comportamiento_Enemigo();
 
-        if(showmsg && Input.GetKeyDown(KeyCode.E)){
+        if(showmsg && Input.GetKeyDown(KeyCode.E) && gameObject.tag != "Untagged" && HealthController.lights_enabled){
             gameObject.GetComponent<Rigidbody>().AddForce(gameObject.transform.right * 50f);
             HealthController.current_money_health += 10;
             //Ataque = true; 

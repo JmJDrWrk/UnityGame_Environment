@@ -53,18 +53,18 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        if(HealthController.current_drink_health <50){Velocidad=0.9f;}
-        if(HealthController.current_drink_health >80){Velocidad=1.6f;}
+        if(HealthController.current_drink_health <50){Velocidad=0.8f;}
+        if(HealthController.current_drink_health >80){Velocidad=1.4f;}
         else if(HealthController.current_drink_health >50){Velocidad=1.2f;}
 
         if(HealthController.current_friend_health<0){
             gameOver.enabled = true;
-            Invoke("menuAgain",5);
+            Invoke("menuAgain",10);
             }
         
         if(HealthController.timeLeft<=0){
             gamePass.enabled = true;
-            Invoke("menuAgain",5);
+            Invoke("menuAgain",20);
         }
     
         oldvelocity = velocity.y;

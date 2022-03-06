@@ -12,6 +12,8 @@ public class MainPlayerRespond : MonoBehaviour
     void Start()
     {   
         source = gameObject.GetComponent<AudioSource>();
+        source.clip = clips[0];
+        source.Play();
     }
 
     // Update is called once per frame
@@ -22,7 +24,7 @@ public class MainPlayerRespond : MonoBehaviour
 
     public void respond(){
         HealthController.current_friend_health += 10;
-        source.clip = clips[1];
+        source.clip = clips[Random.Range(0, clips.Length-1)];
         source.Play();
     }
 }
