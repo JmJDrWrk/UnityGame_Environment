@@ -1,5 +1,13 @@
 @echo off
 
+git add .
+git commit -m "Last Commits Only Tiny Arrangements"
+git push
+
+pause>nul
+exit
+
+
 git add Assets/Audience
 git commit -m "automated update of Audience inside Assets"
 git push
