@@ -8,7 +8,7 @@ public class UICONTROLLER : MonoBehaviour
 
     void Update() {
         if(Input.GetKeyDown(KeyCode.Escape)) {
-            SceneManager.LoadScene("SampleScene");
+                Application.Quit();
             }
         }
 
