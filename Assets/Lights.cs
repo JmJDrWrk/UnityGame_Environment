@@ -40,8 +40,8 @@ public class Lights : MonoBehaviour
         scs = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
          foreach(AudioSource sc in scs)
         {
-            if(sc.tag!="Independent"){
-                sc.volume = 0.1f;
+            if(sc.tag=="Speaker"){
+                sc.volume = 0;
                 Debug.Log(sc);
             }
         }
@@ -60,7 +60,7 @@ public class Lights : MonoBehaviour
         scs = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
          foreach(AudioSource sc in scs)
         {
-            if(sc.tag!="Independent"){
+            if(sc.tag=="Speaker"){
                 sc.volume = 0.75f;
                 Debug.Log(sc);
             }
