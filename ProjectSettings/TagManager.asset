@@ -15,6 +15,7 @@ TagManager:
   - GameOver
   - Steal
   - Speaker
+  - SpecialObject
   layers:
   - Default
   - TransparentFX

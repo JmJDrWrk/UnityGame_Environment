@@ -16,6 +16,10 @@ public class UICONTROLLER : MonoBehaviour
 		PlayerMovement.allowed = true;
     }
     public void quitGame(){
-        Application.Quit();
+		#if UNITY_EDITOR
+		UnityEditor.EditorApplication.isPlaying = false;
+		#else
+		Application.Quit();
+		#endif
     }
 }

@@ -26,6 +26,7 @@ ScriptsOnlyBuild:
     - TableFlipR
     - TalkScript
     - TiltWindow
+    - Transformer
     - UICONTROLLER
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -119,61 +120,63 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1784}
     - Class: 114
-      Script: {instanceID: 2166}
+      Script: {instanceID: 1956}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2168}
     - Class: 114
-      Script: {instanceID: 2344}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2444}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2484}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 2488}
+      Script: {instanceID: 2486}
     - Class: 114
-      Script: {instanceID: 2506}
+      Script: {instanceID: 2490}
     - Class: 114
-      Script: {instanceID: 2510}
+      Script: {instanceID: 2508}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2512}
     - Class: 114
-      Script: {instanceID: 2692}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2694}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 2808}
     - Class: 114
       Script: {instanceID: 2896}
     - Class: 114
-      Script: {instanceID: 2962}
+      Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 3052}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 3094}
+      Script: {instanceID: 3054}
     - Class: 114
-      Script: {instanceID: 3162}
+      Script: {instanceID: 3096}
     - Class: 114
-      Script: {instanceID: 3476}
+      Script: {instanceID: 3164}
     - Class: 114
-      Script: {instanceID: 3742}
+      Script: {instanceID: 3478}
     - Class: 114
-      Script: {instanceID: 3990}
+      Script: {instanceID: 3744}
     - Class: 114
-      Script: {instanceID: 3994}
+      Script: {instanceID: 3992}
     - Class: 114
-      Script: {instanceID: 4014}
+      Script: {instanceID: 3996}
     - Class: 114
-      Script: {instanceID: 4158}
+      Script: {instanceID: 4016}
     - Class: 114
-      Script: {instanceID: 4242}
+      Script: {instanceID: 4160}
     - Class: 114
-      Script: {instanceID: 4388}
+      Script: {instanceID: 4244}
     - Class: 114
-      Script: {instanceID: 4502}
+      Script: {instanceID: 4390}
     - Class: 114
-      Script: {instanceID: 4516}
+      Script: {instanceID: 4504}
     - Class: 114
-      Script: {instanceID: 4522}
+      Script: {instanceID: 4518}
+    - Class: 114
+      Script: {instanceID: 4524}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -274,27 +277,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1748}
     - Class: 114
-      Script: {instanceID: 2030}
+      Script: {instanceID: 2032}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2444}
+      Script: {instanceID: 2446}
     - Class: 114
-      Script: {instanceID: 2506}
+      Script: {instanceID: 2490}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2508}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 3874}
+      Script: {instanceID: 2896}
     - Class: 114
-      Script: {instanceID: 4142}
+      Script: {instanceID: 3876}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 4144}
     - Class: 114
-      Script: {instanceID: 4456}
+      Script: {instanceID: 4380}
+    - Class: 114
+      Script: {instanceID: 4458}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -432,6 +437,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DragPanel
+  - hash:
+      serializedVersion: 2
+      Hash: b72cf5f8e294524eebf496ead228f62d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Transformer
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -692,7 +703,7 @@ ScriptsOnlyBuild:
     className: opencloseSlide
   - hash:
       serializedVersion: 2
-      Hash: e409ae27714de28ad671b45d6e6c0d88
+      Hash: c7a4ac820eed38c74dc2ad2f5bc1d734
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -1042,4 +1053,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/UI.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: Q:/Environment.exe
+  playerPath: U:/UnityProjects/UnityGame_Environment/Environment.exe

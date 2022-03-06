@@ -59,9 +59,10 @@ public class Lights : MonoBehaviour
 
         scs = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
          foreach(AudioSource sc in scs)
-        {
+        {   
             if(sc.tag=="Speaker"){
-                sc.volume = 0.75f;
+                sc.Play();
+                sc.volume = 0.35f;
                 Debug.Log(sc);
             }
 
