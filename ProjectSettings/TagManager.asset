@@ -12,6 +12,9 @@ TagManager:
   - daemon
   - Enemy
   - Independent
+  - GameOver
+  - Steal
+  - Speaker
   layers:
   - Default
   - TransparentFX
