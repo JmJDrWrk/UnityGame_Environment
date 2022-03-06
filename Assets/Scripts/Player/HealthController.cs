@@ -6,6 +6,9 @@ public class HealthController : MonoBehaviour
 {   
     public static bool lights_enabled = false;
 
+    private bool summary = true;
+    public static float timeLeft = 300f;
+
     //Collided Booleans 
     private GameObject current_cubata;
     private bool cubata_collided = false;
@@ -47,17 +50,24 @@ public class HealthController : MonoBehaviour
     public static float current_money_health; // current HP
     int[] money_health_position = new int[3] {10,70,15};
 
+    //TIEMPO
+    int[] time_health_position = new int[3] {300,10,15};
+
     void Start()
     {   
         //GameObject.FindWithTag("Musica").GetComponent<AudioSource>().volume = 1;
         current_drink_health = 90f;
         current_love_health = 90f;
         current_friend_health = 90f;
+        Invoke("revert_summary",5);
     }
-
+   
+   void revert_summary(){summary=false;}
 
     void Update()
     {
+        timeLeft -= Time.deltaTime;
+
         if(Input.GetKeyDown(KeyCode.E)){
             if(cubata_collided){drink();}
             if(car_collided){car_car();}
@@ -203,7 +213,28 @@ public class HealthController : MonoBehaviour
         HUDSkin.fontStyle = FontStyle.BoldAndItalic;
         HUDSkin.fontSize = 16;
         GUI.Label(new Rect(posX + 300, posY, 100, 50), (int)(current_money_health) + "/" + maxHP.ToString() + " " + health_type, HUDSkin);
-        
+
+
+        //TIEMPO
+        health_type = "tiempo";
+        posX = time_health_position[0];
+        posY = time_health_position[1];
+        height = time_health_position[2];
+        percentage = healthBarWidth * (timeLeft/100f);
+
+        //GUI.DrawTexture (new Rect (posX, posY, (healthBarWidth * 2), height), healthBackground);       
+        //GUI.DrawTexture (new Rect (posX, posY, (percentage * 2), height), healthForeground);
+       
+        HUDSkin = new GUIStyle();
+        HUDSkin.normal.textColor = Color.green;
+        HUDSkin.fontStyle = FontStyle.BoldAndItalic;
+        HUDSkin.fontSize = 16;
+        GUI.Label(new Rect(posX + 300, posY, 100, 50), (int)(timeLeft)+ "s" + health_type, HUDSkin);
+
+        if(summary){
+            string labelText = "Parece que ha habido un apagón, encuentra la caja de fusibles para Party Rock";
+            GUI.Box(new Rect(140,Screen.height-50,Screen.width-300,120),(labelText));
+        }
     }
 
 }

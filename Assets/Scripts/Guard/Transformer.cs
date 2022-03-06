@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Transformer : MonoBehaviour
 {   
+    public static GameObject SpecialObject;
+
     private bool isPlaying = false;
     public AudioSource sc;
     public AudioClip ad1;
@@ -31,6 +33,8 @@ public class Transformer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        target = GameObject.FindWithTag("SpecialObject");
+        //target = null;
         // ani = GetComponent<Animator>();
         //target = GameObject.Find("Skeleton@Skin");
     }
@@ -108,13 +112,14 @@ public class Transformer : MonoBehaviour
         Comportamiento_Enemigo();
 
         if(showmsg && Input.GetKeyDown(KeyCode.E)){
-            gameObject.GetComponent<Rigidbody>().AddForce(gameObject.transform.right * 1000f);
+            gameObject.GetComponent<Rigidbody>().AddForce(gameObject.transform.right * 50f);
             HealthController.current_money_health += 10;
             //Ataque = true; 
             Invoke("turnAtaqueOn",2); 
             indicator.GetComponent<MeshRenderer>().material = enemyMat;
             gameObject.GetComponent<Animation>().Play("celebration3");
             showmsg = false;
+            target = lastColl;
             //AudioSource sc = gameObject.GetComponent<AudioSource>();
             if(!isPlaying){
                 sc.clip = ad2;
