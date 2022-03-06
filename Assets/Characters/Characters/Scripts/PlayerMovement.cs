@@ -34,7 +34,8 @@ public class PlayerMovement : MonoBehaviour
         cam2.enabled = false;
         cam1.enabled = true;
     }
-
+    void menuAgain(){SceneManager.LoadScene("UI");}
+    public Canvas gameOver;
     void Update()
     {   if(allowed){
 
@@ -44,15 +45,18 @@ public class PlayerMovement : MonoBehaviour
         }
 
         float num = ElapsedTimeSpeed * Time.deltaTime;
-        //HealthController.current_drink_health -= num;
-        //HealthController.current_love_health -= num;
-        //HealthController.current_friend_health -= num;
+        HealthController.current_drink_health -= num;
+        HealthController.current_love_health -= num;
+        HealthController.current_friend_health -= num;
 
-        //if(HealthController.current_drink_health <50){Velocidad=0.5f;}
-        //if(HealthController.current_drink_health >80){Velocidad=1.6f;}
-        //else if(HealthController.current_drink_health >50){Velocidad=1.2f;}
+        if(HealthController.current_drink_health <50){Velocidad=0.5f;}
+        if(HealthController.current_drink_health >80){Velocidad=1.6f;}
+        else if(HealthController.current_drink_health >50){Velocidad=1.2f;}
 
-        //if(HealthController.current_friend_health<0){SceneManager.LoadScene("UI");}
+        if(HealthController.current_friend_health<0){
+            gameOver.enabled = true;
+            Invoke("menuAgain",5);
+            }
     
         oldvelocity = velocity.y;
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, floorMask);
